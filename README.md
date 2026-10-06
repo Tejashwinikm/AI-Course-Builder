@@ -90,13 +90,22 @@ React runs at: http://localhost:3000
 | USE_MOCK=true   | No API keys needed — realistic mock data        |
 | USE_MOCK=false  | Real Claude AI + real YouTube search            |
 
-To go live:
-1. Get `ANTHROPIC_API_KEY` → https://console.anthropic.com ($5 credit)
-2. Get `YOUTUBE_API_KEY`   → https://console.cloud.google.com (free)
-3. Add both to `.env` and set `USE_MOCK=false`
-4. Restart Flask — no code changes needed
-
 ---
+## API Keys
+
+This project uses the following APIs:
+
+1. **Google Gemini API**
+   - Get your API key from: https://aistudio.google.com/apikey
+
+2. **YouTube Data API v3**
+   - Create an API key through Google Cloud Console:
+     https://console.cloud.google.com/
+
+Add the keys to `backend/.env`:
+
+GEMINI_API_KEY=your_gemini_api_key_here
+YOUTUBE_API_KEY=your_youtube_api_key_here
 
 ## API Endpoints
 
