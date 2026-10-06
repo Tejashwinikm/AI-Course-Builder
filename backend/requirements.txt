@@ -1,0 +1,11 @@
+flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+langchain==0.2.11
+langchain-anthropic==0.1.22
+anthropic==0.28.0
+google-api-python-client==2.136.0
+youtube-transcript-api==0.6.2
+pydantic==2.8.2
+requests==2.32.3
+langchain-google-genai
